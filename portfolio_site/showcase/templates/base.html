@@ -1,0 +1,37 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}My Portfolio{% endblock title %}</title>
+    <link rel="icon" href="{% static 'images/faviconW.ico' %}" type="image/x-icon"> 
+    <link href="{% static '/styles.css' %}" rel="stylesheet">
+    
+</head>
+<body style="background-image: url('{% static 'images/mundo1.webp' %}');">
+    <header>
+        <h1><a href="{% url 'home' %}">My Portfolio</a></h1>
+    </header>
+
+    <nav>
+        <!-- Navigation links -->
+        <ul>
+            <li><a href="{% url 'home' %}">Home</a></li>
+            <li><a href="{% url 'about' %}">About</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        {% block content %}
+        <!-- The content block will be overridden by other templates -->
+        {% endblock content %}
+    </main>
+
+    <footer>
+        <p>&copy; 2023 My Portfolio Site</p>
+    </footer>
+
+    <script src="{% static 'js/scripts.js' %}"></script>
+</body>
+</html>

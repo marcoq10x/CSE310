@@ -1,0 +1,14 @@
+/Users/marco/Documents/BYU IDAHO/CSE 310 Applied programming/GettingStarted/bin/Debug/net8.0/GettingStarted
+/Users/marco/Documents/BYU IDAHO/CSE 310 Applied programming/GettingStarted/bin/Debug/net8.0/GettingStarted.deps.json
+/Users/marco/Documents/BYU IDAHO/CSE 310 Applied programming/GettingStarted/bin/Debug/net8.0/GettingStarted.runtimeconfig.json
+/Users/marco/Documents/BYU IDAHO/CSE 310 Applied programming/GettingStarted/bin/Debug/net8.0/GettingStarted.dll
+/Users/marco/Documents/BYU IDAHO/CSE 310 Applied programming/GettingStarted/bin/Debug/net8.0/GettingStarted.pdb
+/Users/marco/Documents/BYU IDAHO/CSE 310 Applied programming/GettingStarted/obj/Debug/net8.0/GettingStarted.GeneratedMSBuildEditorConfig.editorconfig
+/Users/marco/Documents/BYU IDAHO/CSE 310 Applied programming/GettingStarted/obj/Debug/net8.0/GettingStarted.AssemblyInfoInputs.cache
+/Users/marco/Documents/BYU IDAHO/CSE 310 Applied programming/GettingStarted/obj/Debug/net8.0/GettingStarted.AssemblyInfo.cs
+/Users/marco/Documents/BYU IDAHO/CSE 310 Applied programming/GettingStarted/obj/Debug/net8.0/GettingStarted.csproj.CoreCompileInputs.cache
+/Users/marco/Documents/BYU IDAHO/CSE 310 Applied programming/GettingStarted/obj/Debug/net8.0/GettingStarted.dll
+/Users/marco/Documents/BYU IDAHO/CSE 310 Applied programming/GettingStarted/obj/Debug/net8.0/refint/GettingStarted.dll
+/Users/marco/Documents/BYU IDAHO/CSE 310 Applied programming/GettingStarted/obj/Debug/net8.0/GettingStarted.pdb
+/Users/marco/Documents/BYU IDAHO/CSE 310 Applied programming/GettingStarted/obj/Debug/net8.0/GettingStarted.genruntimeconfig.cache
+/Users/marco/Documents/BYU IDAHO/CSE 310 Applied programming/GettingStarted/obj/Debug/net8.0/ref/GettingStarted.dll

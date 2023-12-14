@@ -1,0 +1,95 @@
+/*  styling  body, setting font, margins, padding, and font size. */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+}
+
+/* background image body, covers  entire background without repeating. */
+body {
+  background-image: url("/JavaScript/flags.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* <h1> elements, setting margin, padding, background color, and text color. */
+h1 {
+  margin: 0;
+  padding: 1em;
+  background-color: #00f2ff;
+  color: rgb(0, 0, 0);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+/*<form> elements, arranging them in a column layout with some margin. */
+form {
+  display: flex;
+  flex-direction: column;
+  margin: 1em;
+}
+
+/* <label> elements, setting margin. */
+label {
+  margin: 0.5em 0;
+}
+
+/* number input fields, adding padding, border radius, border styling, and font size. */
+input[type="number"] {
+  padding: 0.5em;
+  border-radius: 0.5em;
+  border: 1px solid #00f2ff;
+  font-size: 20px;
+}
+
+/* <select> dropdown menus, similar to the input fields. */
+select {
+  height: 50px;
+  padding: 0.5em;
+  border-radius: 0.5em;
+  border: 1px solid #00f2ff;
+}
+
+/* <button> elements, including margins, padding, border, background color, text color, and cursor style. */
+button {
+  font-size: 1.5rem;
+  margin: 1em 0;
+  padding: 0.5em;
+  border-radius: 0.5em;
+  border: none;
+  background-color: #ff00fb;
+  color: rgb(2, 2, 2);
+  cursor: pointer;
+}
+
+/* result display area, setting margin, padding, background color, and border radius. */
+#result {
+  display: block;
+  width: auto;
+  margin: 1em;
+  padding: 1em;
+  background-color: #00f2ff;
+  border-radius: 50px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+/*  Style for the conversion summary entries and color */
+#conversion-summary {
+  margin: 1em;
+  padding: 1em;
+  background-color: #000000;
+  border-radius: 0.5em;
+}
+
+/* Style conversion entry and color */
+.conversion-entry {
+  background-color: Aqua;
+  margin: 0.5em 0;
+  padding: 0.5em;
+  border-radius: 0.4em;
+}
+

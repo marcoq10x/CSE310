@@ -1,0 +1,147 @@
+/* static/css/styles.css */
+
+body {
+    font-family: 'Roboto Serif', serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: #ffffff;
+    color: rgb(51, 51, 51);
+  }
+
+  body {
+    background-image: url('portfolio_site/static/images/mundo1.webp');
+    background-size: cover; /* This will make the image cover the entire background */
+    background-repeat: no-repeat; /* This prevents the image from repeating */
+    /* You can also set other properties like background-position, background-color, etc. */
+  }
+
+
+  
+  header, nav, main, footer {
+    font-family: 'Gloock', serif;
+    padding: 20px;
+    margin: 10px;
+  }
+  
+  header {
+    font-size: larger;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    opacity: 0.80;
+  }
+  
+header a{
+    font-family: 'Gloock', serif;
+    font-size: 2.5rem;
+    color: #fff;
+    text-decoration: none;
+  }
+
+  h1, h2 {
+    color: white;
+  }
+
+
+  nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 5px;
+  }
+  
+  nav a {
+    font-size: 1.7rem;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    padding: 30px;
+  }
+  
+  a:hover {
+    color: rgb(196, 207, 245);
+  }
+  
+  .about-me p {
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+  }
+
+  a {
+    color: rgb(0, 0, 0);
+    font-size: 1.5rem;
+  }
+
+  .project-detail img {
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+  }
+
+  .project-detail p {
+    color: #fff;
+    font-size: 1.5rem;
+  }
+
+  .project-detail a {
+    color: #fff;
+  }
+
+  .project-gallery {
+    width:auto;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .project-gallery h2 {
+    color: black;
+  }
+
+  .project {
+    background: #fff;
+    border: 1px solid #ddd;
+    margin: 10px;
+    padding: 15px;
+    width: calc(33.333% - 20px);
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.1);
+  }
+  
+  .project img {
+    max-width: 100%;
+    height: auto;
+    font-weight: bold;
+  }
+
+  .project-detail img {
+    width: 600px;
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+
+  }
+  
+  footer {
+    display:  block;
+    background: #333;
+    color: #fff;
+    text-align: center;
+    opacity: 0.80;
+    margin: 50px, 0px, 0px, 0px;
+  }
+
+  footer p {
+    color: #fff;
+  }
+  
+  /* Responsive styling */
+  @media (max-width: 600px) {
+    .project {
+      width: calc(100% - 20px);
+    }
+  }
+  

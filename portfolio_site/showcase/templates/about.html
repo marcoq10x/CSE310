@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}About Me{% endblock title %}
+
+{% block content %}
+  <div class="about-me">
+        <img src="{% static 'images/me.jpeg' %}" width="200" height="150" alt="Me"><!-- width="200" height="150" alt="Profile Image of Me"-->
+        <h1>Marco Quintero</h1>
+    <h2>About Me</h2>
+    <!-- Add your personal information, experiences, and achievements -->
+    <p>I’m a student at Brigham Young University, Idaho, with a prior degree 
+        in Biology from Florida Atlantic University. My academic journey includes
+        extensive studies in Artificial Intelligence, earning several certificates 
+        in the field. Passionate about programming and robotics, I also have a 
+        unique background in sports, having played soccer professionally for a 
+        national team for five years.</p>
+  </div>
+{% endblock content %}

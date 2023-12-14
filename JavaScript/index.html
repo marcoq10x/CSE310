@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Money Exchange</title>
+  <link rel="icon" href="/JavaScript/faviconM.ico">
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+  <h1>Money Exchange</h1>
+  <form>
+    <label for="amount">Amount:</label>
+    <input type="number" id="amount" min="0">
+    <label for="currency-from">From:</label>
+    <select id="currency-from">
+      <option value="USD">US dollar (USD)</option>
+      <option value="EUR">Euro (EUR)</option>
+      <option value="JPY">Japanese yen (JPY)</option>
+      <option value="GBP">Pound sterling (GBP)</option>
+      <option value="AUD">Australian dollar (AUD)</option>
+      <option value="CAD">Canadian dollar (CAD)</option>
+      <option value="CHF">Swiss franc (CHF)</option>
+      <option value="COP">Colombian pesos (COP)</option>
+      <option value="CNH">Chinese renminbi (CNH)</option>
+    </select>
+    <label for="currency-to">To:</label>
+    <select id="currency-to">
+      <option value="USD">US dollar (USD)</option>
+      <option value="EUR">Euro (EUR)</option>
+      <option value="JPY">Japanese yen (JPY)</option>
+      <option value="GBP">Pound sterling (GBP)</option>
+      <option value="AUD">Australian dollar (AUD)</option>
+      <option value="CAD">Canadian dollar (CAD)</option>
+      <option value="CHF">Swiss franc (CHF)</option>
+      <option value="COP">Colombian pesos (COP)</option>
+      <option value="CNH">Chinese renminbi (CNH)</option>
+
+    </select>
+    <button type="button" id="exchange-button">Exchange</button>
+  </form>
+  <div id="result"></div>
+  <div id="conversion-summary"></div>
+  <script src="scripts/script.js"></script>
+</body>
+</html>
