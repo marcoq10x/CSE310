@@ -6,7 +6,7 @@ To view the web app locally, one can start the test server by running `python ma
 
 The purpose of writing this software was to understand the full stack development process, including back-end logic with Django and front-end presentation with HTML, CSS, and usually JavaScript. Additionally, it was an exercise in data persistence and web server management.
 
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://youtu.be/Cqa-1FUOrDs)
 
 # Web Pages
 
